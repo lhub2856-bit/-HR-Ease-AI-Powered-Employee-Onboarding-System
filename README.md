@@ -1,7 +1,9 @@
 # -HR-Ease-AI-Powered-Employee-Onboarding-System
 **Project Overview** 
 HR-Ease is an enterprise-level automation solution designed to streamline the employee onboarding experience. Built using n8n, this system connects fragmented HR tasks into a single, cohesive workflow. By simply entering a new hire's details into a Google Sheet, the system triggers a sequence of professional communications and database updates without any human intervention.
+
 **Key Features**
+
 **Automated Communication:**
 Sends personalized welcome emails via Gmail including desk assignments and manager details.
 **Instant Team Integration:**
@@ -9,9 +11,12 @@ Automatically announces new hires in Slack channels to foster immediate team eng
 **Data Integrity & Validation:**
 Uses logic gates (IF Nodes) to ensure only complete data entries are processed, preventing "messy" database records.
 **Closed-Loop Reporting:**
+
 Writes back a "Success" or "Onboarded" status to the master Google Sheet once all tasks are verified.
 **The Use Case: 
+
 Why Implement This**?
+
 Manual onboarding is prone to delays and human error. An HR manager might forget to CC a department head or fail to update the master record.
 
 **Speed**: Onboarding happens the second data is entered.
