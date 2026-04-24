@@ -3,6 +3,14 @@
 HR-Ease is an enterprise-level automation solution designed to streamline the employee onboarding experience. Built using n8n, this system connects fragmented HR tasks into a single, cohesive workflow. By simply entering a new hire's details into a Google Sheet, the system triggers a sequence of professional communications and database updates without any human intervention.
 
 **Key Features**
+**🔄 Dual-Input Workflow Integration**
+This system is architected for maximum flexibility in data handling:
+
+**Self-Service Onboarding**: New employees can submit their own details via a Google Form. This data is automatically pushed to the master sheet, triggering the n8n workflow instantly.
+
+**Manual HR Entry:** If an HR manager prefers to enter data manually into the Google Sheet, the system's Sheet Trigger detects the new row and initiates the same automation sequence.
+
+**Automated Status Tracking**: Regardless of the entry method, the system completes the loop by writing back a "success" status into the sheet once the emails and Slack alerts are successfully dispatched.
 
 **Automated Communication:**
 Sends personalized welcome emails via Gmail including desk assignments and manager details.
